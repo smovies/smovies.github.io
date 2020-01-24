@@ -1,0 +1,136 @@
+body {
+    background: #40E0D0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(49, 45, 49), rgb(75, 73, 68), rgb(45, 49, 49));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(49, 45, 49), rgb(75, 73, 68), rgb(45, 49, 49));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media only screen and (max-width: 600px) {
+    #card_style {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 22rem;
+    }
+    #welcome1 {
+        margin-top: 100px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #card_style {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 20.5rem;
+    }
+    #welcome1 {
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+
+.branding {
+    z-index: 99;
+    position: absolute;
+    top: 3px;
+    left: 15px;
+}
+
+.media_icons {
+    background-color: rgb(48, 47, 33);
+    text-align: right;
+}
+
+i.fa {
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+i.fa:hover {
+    font-size: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(0, 255, 213);
+    transform: rotate(360deg);
+    transition: linear 100ms;
+}
+
+i.fa-whatsapp {
+    color: rgb(12, 148, 0);
+}
+
+i.fa-envelope-o {
+    color: red;
+}
+
+i.fa-facebook-official {
+    color: rgb(4, 0, 255);
+}
+
+i.fa-instagram {
+    color: rgb(255, 0, 234);
+}
+
+i.fa-twitter {
+    color: rgba(0, 89, 255, 0.904);
+}
+
+i.fa-linkedin-square {
+    color: rgb(0, 4, 255);
+}
+
+nav.fill ul li a {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+nav.fill ul li a.nav-link:hover {
+    font-size: 18px;
+    transition: initial 1s;
+    background-color: tomato;
+    font-weight: bolder;
+    font-style: unset;
+    font-family: cursive;
+}
+
+#imdb_bg {
+    color: rgb(15, 54, 5);
+    background-color: rgb(251, 255, 0);
+}
+
+#imdb_bg:hover {
+    color: rgb(77, 5, 32);
+    background-color: rgb(141, 242, 255);
+}
+
+#guide_bold {
+    font-family: serif;
+    color: coral;
+}
+
+.page-footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(246, 248, 143);
+    text-align: center;
+}
+
+#number {
+    color: rgb(255, 0, 0);
+}
+
+#d1 {
+    font-size: 20px;
+    color: burlywood;
+}
