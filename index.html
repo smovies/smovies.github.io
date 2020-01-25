@@ -265,7 +265,7 @@
         function defineTime() {
             if (!sessionStorage.getItem('doNotShow')) {
                 sessionStorage.setItem('doNotShow', true);
-                time = 0;
+                time = 1000;
                 load_website();
             } else {
                 time = 0;
