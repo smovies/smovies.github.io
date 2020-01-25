@@ -64,7 +64,7 @@ nav.fill ul li a {
 nav.fill ul li a.nav-link:hover {
     font-size: 18px;
     transition: initial 1s;
-    background-color: tomato;
+    background-color: rgb(159, 240, 143);
     font-weight: bolder;
     font-style: unset;
     font-family: cursive;
