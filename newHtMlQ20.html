@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            transform-origin: center;
+            animation: 1s ease pulse infinite;
+        }
+
+        button {
+            margin-top: 2vh;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Chitkara</h1>
+    <button onclick="addUn(this)">Click Me</button>
+    <button onclick="changColor()">Change Color</button>
+    <script>
+        const hTag = document.querySelector('h1');
+        const addUn = (obj) => {
+            obj.style.display = "none";
+            hTag.innerText += " University";
+        }
+        function changColor() {
+            hTag.style.color = getRandomColor();
+        }
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+
+</html>
